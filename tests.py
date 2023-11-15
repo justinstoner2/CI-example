@@ -5,6 +5,7 @@ import task
 class TestCase(unittest.TestCase):
 
     def test1(self):
+        # aded some comment
         expected = "Hello World"
         self.assertEqual(task.my_func(), expected)
 
